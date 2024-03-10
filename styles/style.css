@@ -32,7 +32,7 @@ main {
 
 .mensagem {
     background: white;
-    background-image: url(/assets/pessoa\ com\ lupa.png);
+    /* background-image: url(/assets/pessoa\ com\ lupa.png); */
     background-repeat: no-repeat;
     border: none;
     border-radius: 24px;
@@ -78,7 +78,7 @@ main {
     color: #0a3871;
     cursor: pointer;
     height: 67px;
-    margin-left: 108px;
+    margin-left: 4.40rem;
     margin-top: 402px;
     position: absolute;
     width: 336px;

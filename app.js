@@ -29,6 +29,13 @@ function btnDesencriptar() {
     textArea.value = "";
 }
 
+
+//  function btnCopiar () {
+
+//  }
+
+
+
  function desencriptar (stringDesencriptada) {
     let matrizCodigo = [["e", "enter"], ["i", "imes"], ["a", "ai"], ["o", "ober"], ["u", "ufat"]];
     stringDesencriptada = stringDesencriptada.toLowerCase ();
