@@ -5,20 +5,34 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Decodificador de texto</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
+    <header>
+        <img  class="logo" class="gojo_satoru" src="./assets/Frame 6.png">
+    </header>
     <main class="main">
         <section>
-            <textarea class="input"></textarea>
-                <div class="form_group">
-                    <label for="input-texto">Somente letras minúsculas e sem acento</label>
+            <textarea class="text_area" cols="40" rows="4" placeholder="Digite seu texto"></textarea>
+                <div class="informacao">
+                    <h6>Somente letras minúsculas e sem acento</h6>
                 </div>
-                <div class="botoes_div">
-                    <button class="bt_criptografar">Criptografar</button> 
+                <div class="botoes">
+                    <button class="btn_criptografar">Criptografar</button> 
+                    <button class="btn_descriptografar">Descriptografar</button>
                 </div>
         </section>
+        <section>
+            <div class="div_aparece">
+                <textarea class="mensagem" cols="20" rows="10"></textarea>
+                <button class="btn_copiar">Copiar</button>
+            </div>
+        </section>
     </main>
-    <footer>Acesse minhas redes</footer>
+    <script src="app.js"></script>
+    <footer></footer>
 </body>
 </html>

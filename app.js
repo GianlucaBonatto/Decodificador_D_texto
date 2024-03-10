@@ -1,6 +1,7 @@
+const textArea = document.querySelector (".text_area");
+const mensagem = document.querySelector (".mensagem");
 
-
-function bntCriptografar () {};
+function btnCriptografar () {};
 
 function criptografar (string) {
     const resultado = string
