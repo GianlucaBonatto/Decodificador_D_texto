@@ -29,10 +29,12 @@ function btnDesencriptar() {
     textArea.value = "";
 }
 
-
-//  function btnCopiar () {
-
-//  }
+function triggerExample() {
+    const element = document.querySelector('.mensagem');
+    element.select();
+    element.setSelectionRange(0, 99999);
+    document.execCommand('copy');
+  }
 
 
 
